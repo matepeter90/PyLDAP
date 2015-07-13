@@ -1,6 +1,6 @@
 language: c
 before_install:
-    - sudo apt-get install
+    - sudo apt-get update
     - sudo apt-get install binutils make python3
     - sudo curl http://python-distribute.org/distribute_setup.py | sudo python3
     - sudo curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | sudo python3
